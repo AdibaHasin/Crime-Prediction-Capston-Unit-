@@ -1,13 +1,13 @@
-# Crime-Prediction-Capston-Unit
 ## About the Project
 Crime prediction is crucial for law enforcement and public safety. Recent advancements in AI offer new opportunities for reliable crime prediction models. This project aims to create a comprehensive crime prediction model for South Australia, focusing on deterrent practices. Using the Random Forest algorithm, the model identifies intricate patterns in crime data. It offers practical insights for crime prevention and promotes evidence-based decision-making by incorporating anti-crime characteristics like community policing programs and law enforcement tactics.
 The project aims to develop a precise crime prediction model using advanced machine learning methods like Random Forest, Gaussian Naive Bayes, Ridge Regression, Linear Support Vector Classification, and K-Nearest Neighbours. The model will use historical data and anti-crime features to forecast crime rates. The research will provide evidence-based insights for law enforcement, policymakers, and community stakeholders, facilitating targeted resource allocation and crime prevention strategies.
 
+
 ## Getting Started
-Our team members have looked through Australia's crime data and for reliable data sources for forecasting. The website for south Australia contained files that were easier to use among the sites that we looked at. We came across different online data varying into various format. The collection includes crucial data such as the reported incident dates, in-depth descriptions of the offences, and numerical counts of these offences. A careful analysis of this collected data was conducted to identify the most significant features that contribute to crime prediction.
+Our team members have looked through Australia's crime data and for reliable data sources for forecasting. The website for South Australia contained files that were best for us to use among the sites that we looked at. We came across different online data varying into various format. The collection includes crucial data such as the reported incident dates, in-depth descriptions of the offences, and numerical counts of these offences. A careful analysis of this collected data was conducted to identify the most significant features that contribute to crime prediction.
 
 ### Prerequisites
-Since our project is using Visual Studio as the source code platform since it has all those relevant packages that can be used to develop to our code more efficiently. The basic requirements would be installing Visual studio and a system with 32gb RAM. The source code can also be executed on google colab since it a well-suited platform for data analysis. The google colab should have good amount of compute units and faster GPU. There are certain important library files that needs to be imported which are all related to data analysis and visualization. Below are all the specific packages installed before running the project:
+Our project is using Visual Studio as the source code platform since it has all those relevant packages that can be used to develop our code more efficiently. The basic requirements would be installing Visual studio and a system with 32gb RAM. The source code can also be executed on Google Colab since it is a well-suited platform for data analysis. It should have a sufficient number of compute units and a fast GPU.. There are certain important library files that needs to be imported which are all related to data analysis and visualization. Below are all the specific packages installed before running the project:
 
 1. pandas (imported as pd): Used for data manipulation and analysis.
 2. numpy (imported as np): Provides support for numerical operations and arrays.
@@ -39,7 +39,7 @@ Our project requires installing pip and python on the system. Below are the impo
 
 ## Data
 
-Different government websites offered crime-based statistics at local, state, and national levels. These websites provided up-to-date information on crimes and additional details, encouraging transparency and accessibility to official government data. Various data repositories have been found to be helpful for our model. The South Australian crime dataset is the foundation of our analysis, which was meticulously prepared through a thorough data cleaning process, encoding categorical variables, and structuring dates. Data aggregation at various levels improved the predictive models’ adaptability and accuracy. Below is the online source from which we collected our data. 
+Different Government websites offered crime-based statistics at local, state, and national levels. These websites provided up-to-date information on crimes and additional details, encouraging transparency and accessibility to official government data. Various data repositories have been found to be helpful for our model. The South Australian crime dataset is the foundation of our analysis, which was meticulously prepared through a thorough data cleaning process, encoding categorical variables, and structuring dates. Data aggregation at various levels improved the predictive models’ adaptability and accuracy. Below is the online source from which we collected our data. 
 https://data.sa.gov.au/data/dataset/crime-statistics
 Our data set consists of the following information which is used for producing the classification and the regression techniques:
 1. Reported Data: The date the crime was reported ranging from the year 2010-2023.
@@ -82,11 +82,10 @@ We utilized a suite of evaluation metrics tailored to the specific task, includi
 ## Results
 We generated a classification report. This report includes metrics like precision, recall, F1-score, and support for each class. It provides insights into the model’s performance on different classes.
  
-
-![classificationReport1](https://github.com/AdibaHasin/Crime-Prediction-Capston-Unit-/assets/44343038/cd7b6e4b-03e2-45d2-8d04-4cde6ceb5431)
-![ClassificationReport2](https://github.com/AdibaHasin/Crime-Prediction-Capston-Unit-/assets/44343038/7d4840f7-bad7-4da1-bcbe-4956a9d1fcb0)
-![classificatioReport3](https://github.com/AdibaHasin/Crime-Prediction-Capston-Unit-/assets/44343038/6f777933-8da4-427b-bd30-d4aa50b9d32f)
+![classificationReport1](https://github.com/AdibaHasin/Crime-Prediction-Capston-Unit-/assets/44343038/e5dfc4d8-e725-4567-8756-4cb2356447fa)
+![ClassificationReport2](https://github.com/AdibaHasin/Crime-Prediction-Capston-Unit-/assets/44343038/f090feef-6eba-4102-89a7-93af4b8c3cda)
+![classificatioReport3](https://github.com/AdibaHasin/Crime-Prediction-Capston-Unit-/assets/44343038/3ac3d3ad-fc9a-4385-a8a9-98c08a6a203b)
 
 
 ## Acknowledgements
-We have worked as a team, contributing on all the parts of the project on equally basis. Each team member has been cooperating with each other and this helped us to grow more.
+We extend our gratitude to the entire team for their collaborative efforts and dedication in contributing to all aspects of this project. The shared commitment and mutual support among team members have been instrumental in fostering our collective growth and learning throughout this project. Special thanks to our faculty members Janusz Getta and Fuchun Guo for their valuable insights and assistance in developing our project, which significantly enriched the outcomes.
